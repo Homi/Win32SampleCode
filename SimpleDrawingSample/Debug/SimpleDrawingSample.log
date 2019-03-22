@@ -1,0 +1,39 @@
+﻿Build started 22/3/2562 7:10:52.
+     1>Project "C:\Users\toshiba\Documents\GitHub\Win32SampleCode\SimpleDrawingSample\SimpleDrawingSample.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\SimpleDrawingSample.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D Win32 /D UNICODE /D _UNICODE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xxshared(13): warning C4345: behavior change: an object of POD type constructed with an initializer of the form () will be default-initialized
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xxshared(10) : while compiling class template member function 'std::tr1::_Ref_count_obj<_Ty>::_Ref_count_obj(void)'
+                 with
+                 [
+                     _Ty=MyEllipse
+                 ]
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xxshared(35) : see reference to class template instantiation 'std::tr1::_Ref_count_obj<_Ty>' being compiled
+                 with
+                 [
+                     _Ty=MyEllipse
+                 ]
+                 c:\users\toshiba\documents\github\win32samplecode\simpledrawingsample\main.cpp(354) : see reference to function template instantiation 'std::tr1::shared_ptr<_Ty> std::tr1::make_shared<MyEllipse>(void)' being compiled
+                 with
+                 [
+                     _Ty=MyEllipse
+                 ]
+       ResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /l"0x0409" /nologo /fo"Debug\SimpleDrawingSample.res" SimpleDrawingSample.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\toshiba\Documents\GitHub\Win32SampleCode\SimpleDrawingSample\Debug\SimpleDrawingSample.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\SimpleDrawingSample.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\toshiba\Documents\GitHub\Win32SampleCode\SimpleDrawingSample\Debug\SimpleDrawingSample.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\toshiba\Documents\GitHub\Win32SampleCode\SimpleDrawingSample\Debug\SimpleDrawingSample.lib" /MACHINE:X86 Debug\SimpleDrawingSample.res
+         Debug\main.obj
+         SimpleDrawingSample.vcxproj -> C:\Users\toshiba\Documents\GitHub\Win32SampleCode\SimpleDrawingSample\Debug\SimpleDrawingSample.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\toshiba\Documents\GitHub\Win32SampleCode\SimpleDrawingSample\Debug\SimpleDrawingSample.exe;#1" /manifest Debug\SimpleDrawingSample.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\SimpleDrawingSample.unsuccessfulbuild".
+         Touching "Debug\SimpleDrawingSample.lastbuildstate".
+     1>Done Building Project "C:\Users\toshiba\Documents\GitHub\Win32SampleCode\SimpleDrawingSample\SimpleDrawingSample.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.33
